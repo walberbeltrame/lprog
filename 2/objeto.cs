@@ -1,31 +1,17 @@
 using System;
+using Modelos;
 
-class Aula2 {
-
-  public struct Aluno {
-    public string matricula;
-    public int periodo;
-  }
-
-  public struct Disciplina {
-    public string nome;
-    public int semestre;
-  }
-
-  public static bool Matricular(Aluno aluno,
-                                Disciplina disciplina) {
-    return aluno.periodo == disciplina.semestre;
-  }
+class AulaObjeto {
 
   public static void Imprimir(Aluno aluno,
                               Disciplina disciplina) {
-    if(Matricular(aluno, disciplina)) {
+    if(aluno.Matricular(disciplina)) {
       Console.WriteLine(aluno.matricula);
     }
   }
-  
+
   public static void Main (string[] args) {
-    
+
     Aluno aluno1 = new Aluno {
       matricula = "012022",
       periodo = 1
