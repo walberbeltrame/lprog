@@ -4,9 +4,9 @@ class Aula3 {
 
   public static void Main (string[] args) {
     Aluno aluno1 = new Aluno {
-      matricula = "2022ENEL123",
-      nome = "Maria",
-      periodo = 0
+      Matricula = "2022ENEL123",
+      Nome = "Maria",
+      Periodo = 0
     };
     Impressora.Imprimir(aluno1);
     Aluno aluno2 = new Aluno();

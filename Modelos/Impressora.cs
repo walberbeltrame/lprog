@@ -7,9 +7,9 @@ namespace Modelos {
     public static void Imprimir(Aluno aluno) {
       Console.WriteLine(
         "-------------------------\n" +
-        "Matricula: " + aluno.matricula + "\n" +
-        "Nome: " + aluno.nome + "\n" +
-        "Periodo: " + aluno.periodo + "\n" +
+        "Matricula: " + aluno.Matricula + "\n" +
+        "Nome: " + aluno.Nome + "\n" +
+        "Periodo: " + aluno.Periodo + "\n" +
         "-------------------------\n"
       );
     }
@@ -17,8 +17,8 @@ namespace Modelos {
     public static void Imprimir(Disciplina disciplina) {
       Console.WriteLine(
         "-------------------------\n" +
-        "Nome: " + disciplina.nome + "\n" +
-        "Semestre: " + disciplina.semestre + "\n" +
+        "Nome: " + disciplina.Nome + "\n" +
+        "Semestre: " + disciplina.Semestre + "\n" +
         "-------------------------\n"
       );
     }
