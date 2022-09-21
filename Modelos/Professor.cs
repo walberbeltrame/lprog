@@ -6,6 +6,11 @@ namespace Modelos {
       get; set;
     }
 
+    public override bool Validar() {
+      return this.Codigo != null &&
+        this.Codigo.Length > 0;
+    }
+
   }
 
 }
