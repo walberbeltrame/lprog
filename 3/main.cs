@@ -18,9 +18,9 @@ class Aula3 {
     Aluno aluno5 = new Aluno("2022ENEL789", "João", 3);
     Impressora.Imprimir(aluno5);
     Disciplina disciplina1 = new Disciplina("Algoritmos", 0);
-    Impressora.Imprimir(disciplina1);
+    //Impressora.Imprimir(disciplina1);
     Disciplina disciplina2 = new Disciplina("Programação", 11);
-    Impressora.Imprimir(disciplina2);
+    //Impressora.Imprimir(disciplina2);
   }
   
 }

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp6.0</TargetFramework>
-		<StartupObject>Aula7</StartupObject>
+		<StartupObject>Aula9</StartupObject>
   </PropertyGroup>
 
 </Project>
