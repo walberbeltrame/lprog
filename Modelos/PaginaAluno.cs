@@ -32,7 +32,7 @@ namespace Modelos {
     public string Rodape() {
       string rodape = "";
       if (string.IsNullOrEmpty(this.TextoAluno.Aluno.Matricula)) {
-        rodape += "Matricula invalida\n";
+        rodape += "** Matricula invalida\n";
       }
       return rodape + Impressora.LinhaComum();
     }

@@ -11,7 +11,8 @@ namespace Modelos {
     }
 
     public string Informar() {
-      return "Local: " + this.Local + "\n" +
+      return
+        "Local: " + this.Local + "\n" +
         "Postal: " + this.Postal;
     }
 
