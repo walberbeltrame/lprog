@@ -4,6 +4,10 @@ namespace Modelos {
     
     private int semestre;
 
+    public Disciplina Prerequisito {
+      get; set;
+    }
+
     public string Nome {
       get; set;
     }
