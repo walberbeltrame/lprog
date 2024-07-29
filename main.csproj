@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp7.0</TargetFramework>
+    <StartupObject>Aula1</StartupObject>
+  </PropertyGroup>
+
+</Project>
